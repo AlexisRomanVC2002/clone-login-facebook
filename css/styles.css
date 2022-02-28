@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    padding: 130px 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 100px;
+    background-color: #f0f2f5;
+}
+
+main .content-rigth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+main .content-rigth .content-form{
+    background-color: #fff;
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 20px rgb(71, 68, 68);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-form .login{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-form .login .field{
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.content-form .login-button{
+    border-radius: 10px;
+    height: 45px;
+    background-color: #166fe5;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.content-form .content-loss-pass{
+    text-align: center;
+}
+
+.content-form .content-loss-pass a{
+    color: #1879f4;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.content-form .content-loss-pass a:hover{
+    text-decoration: underline;
+}
+
+.content-button-register{
+    text-align: center;
+}
+
+.content-button-register .register-button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #36a420;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.content-create-page{
+    text-align: center;
+    font-size: 14px;
+    width: 350px;
+}
+
+.content-create-page a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #1c1e21;
+}
+
+.content-create-page a:hover{
+    text-decoration: underline;
+}
+
+main .content-left{
+    margin-bottom: 100px;
+}
+
+main .content-left .welcome svg{
+    height: 106px;
+    margin: -28px;
+}
+
+main .content-left .welcome p{
+    font-size: 26px;
+    color: #1c1e21;
+    margin-top: 10px;
+    width: 500px;
+}
+
+footer .info{
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+footer .info .lenguaje{
+    display: flex;
+    gap: 10px;
+}
+
+footer .info span{
+    font-size: 12px;
+    color: #8a8d91;
+}
+
+footer .info .lenguaje a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #8a8d91;
+}
+
+footer .info .lenguaje .selected{
+    color: #737373;
+}
+
+footer .info a:hover{
+    text-decoration: underline;
+}
